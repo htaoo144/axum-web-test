@@ -1,0 +1,13 @@
+[package]
+name = "web-test"
+version = "0.1.0"
+edition = "2024"
+
+
+[dependencies]
+diesql={path = "diesql"}
+axum = "0.8.9"
+tokio = { version = "1.52.3",features = ["full"] }
+serde = { version = "1.0.228", features = ["derive"] }
+tower-http = { version = "0.6.11", features = ["cors"]}
+http = "1.4.1"
